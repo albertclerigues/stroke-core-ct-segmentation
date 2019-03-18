@@ -1,5 +1,5 @@
-# stroke-core-ct-segmentation
-Docker for training and running the tool for stroke lesion core segmentation presented in:
+# Acute ischemic stroke lesion core segmentation in CT perfusion images using fully convolutional neural networks. 
+Tool for training and inference for stroke lesion core segmentation as presented in:
 
 Acute ischemic stroke lesion core segmentation in CT perfusion images using fully convolutional neural networks. 
 Albert Clèrigues*, Sergi Valverde, Jose Bernal, Jordi Freixenet, Arnau Oliver, Xavier Lladó. Unpublished.
