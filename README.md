@@ -1,7 +1,8 @@
 # stroke-core-ct-segmentation
 Docker for training and running the tool for stroke lesion core segmentation presented in:
+
 Acute ischemic stroke lesion core segmentation in CT perfusion images using fully convolutional neural networks. 
-Albert Clèrigues*, Sergi Valverde, Jose Bernal, Jordi Freixenet, Arnau Oliver, Xavier Lladó. 
+Albert Clèrigues*, Sergi Valverde, Jose Bernal, Jordi Freixenet, Arnau Oliver, Xavier Lladó. Unpublished.
 
 ## Pre-requisites
 - Python and Tkinter
@@ -14,7 +15,7 @@ For accessing the images, a .txt specification file must be **placed on the root
 * For training, the ground truth image (an image with binary intensities) must be placed last. 
 * For inference, no ground truth image must be present in the specification file.
 
-Two example dataset specification files (.txt) are provided for using the ISLES 2018 dataset. This dataset is available at https://www.smir.ch/ISLES/Start2018 after registration. After download, copy the training and testing specification files to the uncompressed folder and then using the GUI.
+Two example dataset specification files (.txt) are provided for using the ISLES 2018 dataset. This dataset is available at https://www.smir.ch/ISLES/Start2018 after registration. After download, copy the training and testing specification files to the uncompressed folder and then load them using the GUI.
 
 ## Running the program
 1. Download the repository in .zip or clone using the terminal:
